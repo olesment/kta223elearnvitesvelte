@@ -1,5 +1,9 @@
 /*siin peaks mingi sassi bgcolor olema*/
+@import '../node_modules/bulma/bulma.sass'; // see ei funka
+
+
+$bgcolor: coral;
 
 html{
-    background-color: coral;
+    background-color: lighten($bgcolor, 10%);
 }
